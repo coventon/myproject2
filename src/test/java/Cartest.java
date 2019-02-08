@@ -43,7 +43,7 @@ public class Cartest {
      truck.setPrice(25000);
          assertEquals("Chevy", truck.getMake());
          assertEquals("Tahoe", truck.getModel());
-         assertEquals(25000, 25000, 1);
+         //assertEquals(25000, 25000, 1);
      }
     @BeforeClass
     public static void setUpClass() throws Exception {
